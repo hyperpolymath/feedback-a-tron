@@ -1,3 +1,6 @@
+;; SPDX-License-Identifier: AGPL-3.0-or-later
+;; SPDX-FileCopyrightText: 2025 Hyper Polymath
+;;
 ;; feedback-a-tron - Guix Package Definition
 ;; Run: guix shell -D -f guix.scm
 

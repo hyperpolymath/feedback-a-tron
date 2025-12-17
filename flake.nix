@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# SPDX-FileCopyrightText: 2025 Hyper Polymath
 {
   description = "GitHub repository management with Datalog analysis";
 
@@ -22,7 +24,7 @@
           meta = with pkgs.lib; {
             description = "GitHub management MCP server with Datalog analysis";
             homepage = "https://github.com/hyperpolymath/feedback-a-tron";
-            license = licenses.asl20;
+            license = licenses.agpl3Plus;
             platforms = platforms.unix;
           };
         };
@@ -43,7 +45,7 @@
           meta = with pkgs.lib; {
             description = "GitHub activity statistics in Julia";
             homepage = "https://github.com/hyperpolymath/feedback-a-tron";
-            license = licenses.asl20;
+            license = licenses.agpl3Plus;
           };
         };
 
